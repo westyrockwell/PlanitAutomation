@@ -1,0 +1,282 @@
+2022-07-18 05:04:36,778 Test case 1
+2022-07-18 05:04:36,778 doSetup()
+2022-07-18 05:04:36,778 getDriver()
+2022-07-18 05:04:41,090 Testing url https://jupiter.cloud.planittesting.com
+2022-07-18 05:04:41,091 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:04:41,091 goToContactPage()
+2022-07-18 05:04:41,145 clickSubmitButton()
+2022-07-18 05:04:46,723 validateErrors()
+2022-07-18 05:04:46,723 findErrorMessage() identifier is forename errorID is forename-err expectSuccess is True
+2022-07-18 05:04:46,737 forename-err found!
+2022-07-18 05:04:46,737 findErrorMessage() identifier is email errorID is email-err expectSuccess is True
+2022-07-18 05:04:46,747 email-err found!
+2022-07-18 05:04:46,747 findErrorMessage() identifier is message errorID is message-err expectSuccess is True
+2022-07-18 05:04:46,758 message-err found!
+2022-07-18 05:04:46,758 populateMandatoryFields()
+2022-07-18 05:04:46,758 populateField forename
+2022-07-18 05:04:46,768 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:04:46,768 keysToSend is Donald
+2022-07-18 05:04:46,808 populateField email
+2022-07-18 05:04:46,818 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:04:46,819 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:04:46,896 populateField message
+2022-07-18 05:04:46,907 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:04:46,908 keysToSend is A Golden Opportunity!
+2022-07-18 05:04:51,992 validateNoErrors()
+2022-07-18 05:04:51,992 findErrorMessage() identifier is forename errorID is forename-err expectSuccess is False
+2022-07-18 05:04:55,017 findErrorMessage() identifier is email errorID is email-err expectSuccess is False
+2022-07-18 05:04:58,076 findErrorMessage() identifier is message errorID is message-err expectSuccess is False
+2022-07-18 05:05:01,130 doTeardown()
+2022-07-18 05:05:01,130 getDriver()
+2022-07-18 05:07:32,055 Test case 1
+2022-07-18 05:07:32,055 doSetup()
+2022-07-18 05:07:32,055 getDriver()
+2022-07-18 05:07:36,062 Testing url https://jupiter.cloud.planittesting.com
+2022-07-18 05:07:36,063 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:07:36,064 goToContactPage()
+2022-07-18 05:07:36,117 clickSubmitButton()
+2022-07-18 05:07:41,716 validateErrors()
+2022-07-18 05:07:41,716 findErrorMessage() identifier is forename errorID is forename-err expectSuccess is True
+2022-07-18 05:07:41,727 forename-err found!
+2022-07-18 05:07:41,728 findErrorMessage() identifier is email errorID is email-err expectSuccess is True
+2022-07-18 05:07:41,738 email-err found!
+2022-07-18 05:07:41,738 findErrorMessage() identifier is message errorID is message-err expectSuccess is True
+2022-07-18 05:07:41,748 message-err found!
+2022-07-18 05:07:41,748 populateMandatoryFields()
+2022-07-18 05:07:41,749 populateField forename
+2022-07-18 05:07:41,759 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:07:41,759 keysToSend is Donald
+2022-07-18 05:07:41,797 populateField email
+2022-07-18 05:07:41,807 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:07:41,808 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:07:41,884 populateField message
+2022-07-18 05:07:41,895 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:07:41,895 keysToSend is A Golden Opportunity!
+2022-07-18 05:07:46,980 validateNoErrors()
+2022-07-18 05:07:46,980 findErrorMessage() identifier is forename errorID is forename-err expectSuccess is False
+2022-07-18 05:07:50,005 findErrorMessage() identifier is email errorID is email-err expectSuccess is False
+2022-07-18 05:07:53,056 findErrorMessage() identifier is message errorID is message-err expectSuccess is False
+2022-07-18 05:07:56,114 doTeardown()
+2022-07-18 05:07:56,114 getDriver()
+2022-07-18 05:07:58,391 Test case 2 -- Five repetitions
+2022-07-18 05:07:58,392 doSetup()
+2022-07-18 05:07:58,392 getDriver()
+2022-07-18 05:07:59,209 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:07:59,209 goToHomePage()
+2022-07-18 05:07:59,266 goToContactPage()
+2022-07-18 05:07:59,324 populateMandatoryFields()
+2022-07-18 05:07:59,324 populateField forename
+2022-07-18 05:07:59,335 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:07:59,335 keysToSend is Donald
+2022-07-18 05:07:59,394 populateField email
+2022-07-18 05:07:59,404 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:07:59,404 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:07:59,476 populateField message
+2022-07-18 05:07:59,486 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:07:59,486 keysToSend is A Golden Opportunity!
+2022-07-18 05:07:59,556 clickSubmitButton()
+2022-07-18 05:07:59,623 validateSubmissionMessage()
+2022-07-18 05:08:16,033 validation succeeded
+2022-07-18 05:08:16,033 doTeardown()
+2022-07-18 05:08:16,033 getDriver()
+2022-07-18 05:08:17,457 doSetup()
+2022-07-18 05:08:17,458 getDriver()
+2022-07-18 05:08:17,807 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:08:17,807 goToHomePage()
+2022-07-18 05:08:17,861 goToContactPage()
+2022-07-18 05:08:17,918 populateMandatoryFields()
+2022-07-18 05:08:17,918 populateField forename
+2022-07-18 05:08:17,930 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:17,930 keysToSend is Donald
+2022-07-18 05:08:17,983 populateField email
+2022-07-18 05:08:17,993 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:17,993 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:08:18,070 populateField message
+2022-07-18 05:08:18,081 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:18,081 keysToSend is A Golden Opportunity!
+2022-07-18 05:08:18,152 clickSubmitButton()
+2022-07-18 05:08:18,209 validateSubmissionMessage()
+2022-07-18 05:08:23,944 validation succeeded
+2022-07-18 05:08:23,944 doTeardown()
+2022-07-18 05:08:23,944 getDriver()
+2022-07-18 05:08:24,298 doSetup()
+2022-07-18 05:08:24,298 getDriver()
+2022-07-18 05:08:24,640 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:08:24,640 goToHomePage()
+2022-07-18 05:08:24,693 goToContactPage()
+2022-07-18 05:08:24,749 populateMandatoryFields()
+2022-07-18 05:08:24,749 populateField forename
+2022-07-18 05:08:24,756 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:24,756 keysToSend is Donald
+2022-07-18 05:08:24,812 populateField email
+2022-07-18 05:08:24,820 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:24,820 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:08:24,891 populateField message
+2022-07-18 05:08:24,899 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:24,899 keysToSend is A Golden Opportunity!
+2022-07-18 05:08:24,976 clickSubmitButton()
+2022-07-18 05:08:25,030 validateSubmissionMessage()
+2022-07-18 05:08:27,539 validation succeeded
+2022-07-18 05:08:27,540 doTeardown()
+2022-07-18 05:08:27,540 getDriver()
+2022-07-18 05:08:27,889 doSetup()
+2022-07-18 05:08:27,889 getDriver()
+2022-07-18 05:08:28,229 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:08:28,229 goToHomePage()
+2022-07-18 05:08:28,276 goToContactPage()
+2022-07-18 05:08:28,327 populateMandatoryFields()
+2022-07-18 05:08:28,327 populateField forename
+2022-07-18 05:08:28,337 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:28,337 keysToSend is Donald
+2022-07-18 05:08:28,389 populateField email
+2022-07-18 05:08:28,396 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:28,397 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:08:28,467 populateField message
+2022-07-18 05:08:28,474 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:28,474 keysToSend is A Golden Opportunity!
+2022-07-18 05:08:28,546 clickSubmitButton()
+2022-07-18 05:08:28,602 validateSubmissionMessage()
+2022-07-18 05:08:34,538 validation succeeded
+2022-07-18 05:08:34,538 doTeardown()
+2022-07-18 05:08:34,538 getDriver()
+2022-07-18 05:08:34,887 doSetup()
+2022-07-18 05:08:34,887 getDriver()
+2022-07-18 05:08:35,232 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:08:35,232 goToHomePage()
+2022-07-18 05:08:35,279 goToContactPage()
+2022-07-18 05:08:35,331 populateMandatoryFields()
+2022-07-18 05:08:35,331 populateField forename
+2022-07-18 05:08:35,339 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:35,339 keysToSend is Donald
+2022-07-18 05:08:35,396 populateField email
+2022-07-18 05:08:35,404 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:35,404 keysToSend is nzrockwell@gmail.com
+2022-07-18 05:08:35,477 populateField message
+2022-07-18 05:08:35,485 type(ctrl) is <class 'selenium.webdriver.remote.webelement.WebElement'>
+2022-07-18 05:08:35,485 keysToSend is A Golden Opportunity!
+2022-07-18 05:08:35,557 clickSubmitButton()
+2022-07-18 05:08:35,611 validateSubmissionMessage()
+2022-07-18 05:08:48,877 validation succeeded
+2022-07-18 05:08:48,878 doTeardown()
+2022-07-18 05:08:48,878 getDriver()
+2022-07-18 05:08:49,238 Test case 3
+2022-07-18 05:08:49,238 doSetup()
+2022-07-18 05:08:49,238 getDriver()
+2022-07-18 05:08:49,589 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:08:49,589 goToHomePage()
+2022-07-18 05:08:49,651 goToShopPage()
+2022-07-18 05:08:50,125 found Fluffy Bunny in itemsToBuy
+2022-07-18 05:08:50,341 found Funny Cow in itemsToBuy
+2022-07-18 05:08:50,687 clickElementByXpath() xpath is //*[@id="nav-cart"]/a
+2022-07-18 05:08:55,783 Item
+2022-07-18 05:08:55,803 Price
+2022-07-18 05:08:55,822 Quantity
+2022-07-18 05:08:55,841 Subtotal
+2022-07-18 05:08:55,862 Actions
+2022-07-18 05:08:55,899 1 Fluffy Bunny $9.99 $9.99
+2022-07-18 05:08:55,930 Fluffy Bunny
+2022-07-18 05:08:55,931 found Fluffy Bunny in itemsToBuy
+2022-07-18 05:08:55,931 quantityExpected 1
+2022-07-18 05:08:55,931 quantityColumn 3
+2022-07-18 05:08:55,931 //table/tbody/tr[1]/td[3]/input
+2022-07-18 05:08:55,931 validateElementValueByXpath() xpath is //table/tbody/tr[1]/td[3]/input
+2022-07-18 05:08:55,954 Value of element is 1 and expectedValue is 1
+2022-07-18 05:08:55,969 2 Funny Cow $10.99 $21.98
+2022-07-18 05:08:56,000 Funny Cow
+2022-07-18 05:08:56,000 found Funny Cow in itemsToBuy
+2022-07-18 05:08:56,000 quantityExpected 2
+2022-07-18 05:08:56,000 quantityColumn 3
+2022-07-18 05:08:56,000 //table/tbody/tr[2]/td[3]/input
+2022-07-18 05:08:56,001 validateElementValueByXpath() xpath is //table/tbody/tr[2]/td[3]/input
+2022-07-18 05:08:56,022 Value of element is 2 and expectedValue is 2
+2022-07-18 05:08:56,023 doTeardown()
+2022-07-18 05:08:56,023 getDriver()
+2022-07-18 05:08:56,371 Test case 4
+2022-07-18 05:08:56,371 doSetup()
+2022-07-18 05:08:56,372 getDriver()
+2022-07-18 05:08:56,715 mandatory fields are ['forename', 'email', 'message']
+2022-07-18 05:08:56,716 goToHomePage()
+2022-07-18 05:08:56,762 goToShopPage()
+2022-07-18 05:08:56,856 found Teddy Bear in itemsToBuy
+2022-07-18 05:08:56,886 price is $12.99
+2022-07-18 05:08:57,313 found Stuffed Frog in itemsToBuy
+2022-07-18 05:08:57,335 price is $10.99
+2022-07-18 05:08:57,660 found Fluffy Bunny in itemsToBuy
+2022-07-18 05:08:57,682 price is $9.99
+2022-07-18 05:08:58,432 clickElementByXpath() xpath is //*[@id="nav-cart"]/a
+2022-07-18 05:09:03,534 Item
+2022-07-18 05:09:03,555 Price
+2022-07-18 05:09:03,575 Quantity
+2022-07-18 05:09:03,598 Subtotal
+2022-07-18 05:09:03,619 Actions
+2022-07-18 05:09:03,650 1 Teddy Bear $12.99 $38.97
+2022-07-18 05:09:03,682 Teddy Bear
+2022-07-18 05:09:03,682 found Teddy Bear in pricesOfItems
+2022-07-18 05:09:03,682 expectedPrice $12.99
+2022-07-18 05:09:03,682 priceColumn 2
+2022-07-18 05:09:03,682 //table/tbody/tr[1]/td[2]
+2022-07-18 05:09:03,682 validateElementTextByXpath() xpath is //table/tbody/tr[1]/td[2]
+2022-07-18 05:09:03,704 Text of element is $12.99 and expectedValue is $12.99
+2022-07-18 05:09:03,719 2 Stuffed Frog $10.99 $21.98
+2022-07-18 05:09:03,752 Stuffed Frog
+2022-07-18 05:09:03,752 found Stuffed Frog in pricesOfItems
+2022-07-18 05:09:03,752 expectedPrice $10.99
+2022-07-18 05:09:03,753 priceColumn 2
+2022-07-18 05:09:03,753 //table/tbody/tr[2]/td[2]
+2022-07-18 05:09:03,753 validateElementTextByXpath() xpath is //table/tbody/tr[2]/td[2]
+2022-07-18 05:09:03,775 Text of element is $10.99 and expectedValue is $10.99
+2022-07-18 05:09:03,790 3 Fluffy Bunny $9.99 $49.95
+2022-07-18 05:09:03,823 Fluffy Bunny
+2022-07-18 05:09:03,823 found Fluffy Bunny in pricesOfItems
+2022-07-18 05:09:03,823 expectedPrice $9.99
+2022-07-18 05:09:03,823 priceColumn 2
+2022-07-18 05:09:03,824 //table/tbody/tr[3]/td[2]
+2022-07-18 05:09:03,824 validateElementTextByXpath() xpath is //table/tbody/tr[3]/td[2]
+2022-07-18 05:09:03,845 Text of element is $9.99 and expectedValue is $9.99
+2022-07-18 05:09:03,855 1 Teddy Bear $12.99 $38.97
+2022-07-18 05:09:03,876 Teddy Bear
+2022-07-18 05:09:03,876 found Teddy Bear in pricesOfItems
+2022-07-18 05:09:03,876 found Teddy Bear in itemsToBuy
+2022-07-18 05:09:03,876 quantity 3
+2022-07-18 05:09:03,877 expectedPrice $12.99
+2022-07-18 05:09:03,877 //table/tbody/tr[1]/td[4]
+2022-07-18 05:09:03,877 expectedPriceAmount 12.99
+2022-07-18 05:09:03,877 expectedSubTotal $38.97
+2022-07-18 05:09:03,877 validateElementTextByXpath() xpath is //table/tbody/tr[1]/td[4]
+2022-07-18 05:09:03,898 Text of element is $38.97 and expectedValue is $38.97
+2022-07-18 05:09:03,898 expectedSubTotalAmount 38.97
+2022-07-18 05:09:03,899 sumOfSubTotals 38.97
+2022-07-18 05:09:03,909 2 Stuffed Frog $10.99 $21.98
+2022-07-18 05:09:03,930 Stuffed Frog
+2022-07-18 05:09:03,930 found Stuffed Frog in pricesOfItems
+2022-07-18 05:09:03,930 found Stuffed Frog in itemsToBuy
+2022-07-18 05:09:03,931 quantity 2
+2022-07-18 05:09:03,931 expectedPrice $10.99
+2022-07-18 05:09:03,931 //table/tbody/tr[2]/td[4]
+2022-07-18 05:09:03,931 expectedPriceAmount 10.99
+2022-07-18 05:09:03,931 expectedSubTotal $21.98
+2022-07-18 05:09:03,931 validateElementTextByXpath() xpath is //table/tbody/tr[2]/td[4]
+2022-07-18 05:09:03,953 Text of element is $21.98 and expectedValue is $21.98
+2022-07-18 05:09:03,953 expectedSubTotalAmount 21.98
+2022-07-18 05:09:03,953 sumOfSubTotals 60.95
+2022-07-18 05:09:03,963 3 Fluffy Bunny $9.99 $49.95
+2022-07-18 05:09:03,984 Fluffy Bunny
+2022-07-18 05:09:03,984 found Fluffy Bunny in pricesOfItems
+2022-07-18 05:09:03,984 found Fluffy Bunny in itemsToBuy
+2022-07-18 05:09:03,984 quantity 5
+2022-07-18 05:09:03,984 expectedPrice $9.99
+2022-07-18 05:09:03,984 //table/tbody/tr[3]/td[4]
+2022-07-18 05:09:03,984 expectedPriceAmount 9.99
+2022-07-18 05:09:03,984 expectedSubTotal $49.95
+2022-07-18 05:09:03,984 validateElementTextByXpath() xpath is //table/tbody/tr[3]/td[4]
+2022-07-18 05:09:04,005 Text of element is $49.95 and expectedValue is $49.95
+2022-07-18 05:09:04,005 expectedSubTotalAmount 49.95
+2022-07-18 05:09:04,005 sumOfSubTotals 110.9
+2022-07-18 05:09:04,005 validateElementTextByXpath() xpath is //table/tfoot/tr[1]/td/strong
+2022-07-18 05:09:04,029 Text of element is Total: 110.9 and expectedNumberAsString is 110.9
+2022-07-18 05:09:04,029 float number from element text is 110.9
+2022-07-18 05:09:04,029 doTeardown()
+2022-07-18 05:09:04,029 getDriver()
+2022-07-18 05:09:10,747 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BDA5CC4400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/37d8b249dfa49131be8a39326d42c9ef/window
+2022-07-18 05:09:14,828 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BDA5CC4130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/37d8b249dfa49131be8a39326d42c9ef/window
+2022-07-18 05:09:18,913 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BDA5CC4100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/37d8b249dfa49131be8a39326d42c9ef/window

@@ -1,0 +1,102 @@
+
+https://www.seleniumeasy.com/selenium-tutorials
+
+https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=b67acdb00d&attid=0.1&permmsgid=msg-f:1738297924964984061&th=181facc0bb5624fd&view=att&disp=safe&saddbat=ANGjdJ8iRn3Th7GXHVhTYRXkQU9tCvJNJ5f_qX3k--VE_qQ37iLE2cpYFkzDWPrFTTZh4Tt7n9viN-uNRhiWSCS3uWV49LphGKt0e3SyIoLPuh0jeMHG8D0Q8URr8E3Yf-R_0WNO0SPI92FoyCfXdt4mKixL3hlmVQEfy4F0t1Jf0QQVwI57WakBgbCkzyGIXiT91sU_Ag-St-_YGD7SZTopxfqNDcCEM3dz1bDKyiSNOL_sVpdxuC-hFoE5Qh0VtOmtplh6Pp3exJPzlq3RacC1vI-jnThGRyEKIZnaq-LgzBnHssQ7FMPzl_toWZR5NkFVxk3OCaejM1jvrxiEJix2Sa8km03YMghUzNDp9t_QKvoGKRSoRZrS1P0G3eSSLzpflsAqu9Tqc_fZ4DKb8GBFrlcvPI8P4kSKWonZWpu-orUEDbuaVxNIKGSdbWk8czrPe27Dp5qDmtzT83piJDguYCeyvQKo9yHen8CfIyubwAzWxySHcSZMtSo_-ENXE0lo9HKAiPmGvnHoWtNx0i7axjHibN3sNhjephSloNKJ7gLkoBlLLPr7cxjU09Vas7UvaD2UdcnLvAeZySeBzY4lD2zosGgl4-wcxZZw83PG16Y-lK38n_5jq6ub6gJH7huxCqXVYAL_CXQRLiGawk6KdpJO8vhALjWr2i4bLs0CVCB3Cq7drezzITAIy5q5kQ7IgSyQs6zfEJz_2u3X5rx6oHQjP4aRjyVJU1oGHoVVB8wRg71fhC48BirK-r8
+
+
+https://jupiter.cloud.planittesting.com
+
+https://jupiter.cloud.planittesting.com/#/contact
+
+
+
+/html/body/div[1]/div/div/div/ul[1]/li[3]/a
+
+
+
+
+/html/body/div[2]/div/form/div/a
+
+
+/html/body/div[2]/div/form/fieldset/div[1]/div/span
+
+<span class="help-inline ng-scope" ui-if="form.forename.$dirty &amp;&amp; form.forename.$error.required" id="forename-err">Forename is required</span>
+
+
+
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="forename-err"]"}
+
+
+<input type="text" id="forename" name="forename" placeholder="John" ng-model="forename" ui-event="{'blur' : 'onBlur(form.forename, form)', 'focus' : 'contactforenameRequired = true'}" ng-required="contactforenameRequired" class="ng-dirty ng-valid ng-valid-required" required="required">
+
+
+
+
+
+<input type="email" id="email" name="email" placeholder="john.example@planit.net.au" ng-model="email" ui-event="{'blur' : 'onBlur(form.email, form)', 'focus' : 'contactemailRequired = true'}" ng-required="contactemailRequired" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required" required="required">
+
+<span class="help-inline ng-scope" ui-if="form.email.$dirty &amp;&amp; form.email.$error.required" id="email-err">Email is required</span>
+
+
+<textarea rows="5" type="text" id="message" name="message" placeholder="Tell us about it.." ng-model="message" ui-event="{'blur' : 'onBlur(form.message, form)', 'focus' : 'contactmessageRequired = true'}" ng-required="contactmessageRequired" class="ng-pristine ng-invalid ng-invalid-required" required="required"></textarea>
+
+<span class="help-inline ng-scope" ui-if="form.message.$dirty &amp;&amp; form.message.$error.required" id="message-err">Message is required</span>
+
+<div class="alert alert-success">
+		<strong class="ng-binding">Thanks Donald</strong>, we appreciate your feedback.
+	</div>
+	
+	
+
+<a class="btn btn-success" ng-click="add(item)" href="">Buy</a>
+
+funny cow:
+button:
+/html/body/div[2]/div/ul/li[6]/div/p/a
+//*[@id="product-6"]/div/p/a
+#product-6 > div > p > a
+price:
+//*[@id="product-6"]/div/p/span
+
+
+fluffy bunny:
+button:
+//*[@id="product-4"]/div/p/a
+price:
+//*[@id="product-4"]/div/p/span
+
+cart link:
+//*[@id="nav-cart"]/a
+
+first two Quantity cells in cart table:
+/html/body/div[2]/div/form/table/tbody/tr[1]/td[3]/input
+/html/body/div[2]/div/form/table/tbody/tr[2]/td[3]/input
+
+Total: 
+/html/body/div[2]/div/form/table/tfoot/tr[1]/td/strong
+
+# the text in these elements:
+Price row 1: 
+/html/body/div[2]/div/form/table/tbody/tr[1]/td[2]
+Price row 2: 
+/html/body/div[2]/div/form/table/tbody/tr[2]/td[2]
+Price row 3: 
+/html/body/div[2]/div/form/table/tbody/tr[3]/td[2]
+
+Subtotal row 1:
+/html/body/div[2]/div/form/table/tbody/tr[1]/td[4]
+Subtotal row 2:
+/html/body/div[2]/div/form/table/tbody/tr[2]/td[4]
+Subtotal row 3:
+/html/body/div[2]/div/form/table/tbody/tr[3]/td[4]
+
+
+
+about 11:55PM Sunday I could not reach the web page, getting this error:
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+
+
+/html/body/div[2]/div/form/table/tbody/tr[1]/td[1]
+/html/body/div[2]/div/form/table/tbody/tr[1]/td[2]
+
+/html/body/div[2]/div/form/table/tbody/tr[1]/td[1]
